@@ -3,7 +3,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("1");
+        Console.Write("Введіть значення: ");
         double number = Convert.ToDouble(Console.ReadLine());
         if (number < 0)
         {
